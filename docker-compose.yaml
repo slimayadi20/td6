@@ -6,7 +6,7 @@ services:
       context: ./nginx
       dockerfile: DockerFile
     ports:
-      - "8080:8080"
+      - "8080:80"
     depends_on:
       - producer
       - consumer
